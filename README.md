@@ -26,20 +26,21 @@ A simple Flutter application that displays real-time weather information using t
    cd weatherapp
 2. Install dependencies:
 
-   2flutter pub get
+   flutter pub get
 
 
 3. Get your API key from OpenWeatherMap 
 
-https://openweathermap.org/api
+[**https://openweathermap.org/api**](https://)
 
-Replace the apikey in lib/models/services/weather_service.dart:
-final String apikey = 'YOUR_API_KEY';
+Replace the apikey in lib/models/services/weather_service.dart
+
+`final String apikey = 'YOUR_API_KEY';`
 
 
 Run the app:
 
-flutter run
+`flutter run`
 
 4. Dependencies
 
